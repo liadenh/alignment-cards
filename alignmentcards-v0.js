@@ -15,8 +15,6 @@ export const cards = [
     }
   }
 ];
-
-export const cards = [
   {
     "category": "AP",
     "name": "Justice",
