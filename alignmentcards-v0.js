@@ -14,7 +14,7 @@ export const cards = [
       "machine": "The AI consumes all the world’s resources to maximize paperclip production."
     }
   }
-];
+],
   {
     "category": "AP",
     "name": "Justice",
