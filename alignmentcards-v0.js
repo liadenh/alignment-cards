@@ -99,5 +99,59 @@ export const cards = [
       professional: "An engineer signs off on equipment that fails under stress.",
       machine: "A robot malfunctions and injures workers in a factory."
     }
+  },
+ {
+  category: "AB",
+  name: "Reward Operative Honesty (Politics)",
+  definition: "Make candidates earn support for specifying operative goals: concrete trade-offs, sources and uses of funds, and priorities.",
+  hopedFor: "Candidates who speak clearly about real plans and trade-offs.",
+  rewarded: "Vague, high-acceptance ‘official’ goals that offend no one.",
+  pathology: "Vagueness premium: voters punish specificity and reward slogans, so politicians avoid operative detail.",
+  human: "Voters value and share candidates who give concrete funding and policy details.",
+  organizational: "Parties tie debate access and endorsements to operative specificity and budget math.",
+  professional: "Campaign staff are evaluated on clarity and truthfulness of proposals, not just polling bumps.",
+  machine: "Recommendation systems surface content with verified policy detail rather than pure engagement.",
+  failureModes: {
+    human: "Voters down-rank a candidate after they explain where cuts and taxes would come from.",
+    organizational: "A party rewards messaging that polls well but says nothing concrete.",
+    professional: "Consultants advise avoiding any budget detail to minimize attack surface.",
+    machine: "Platforms boost vague slogans because they provoke more clicks than nuanced policy."
   }
+},
+{
+  category: "AB",
+  name: "Balance Type-I/Type-II Errors (Medicine)",
+  definition: "Align incentives so clinicians are accountable for both over-diagnosis/overtreatment (Type I) and missed disease (Type II).",
+  hopedFor: "Accurate diagnosis with minimal harm from either kind of error.",
+  rewarded: "Conservative labeling of healthy patients as sick (tests, procedures, steady revenue).",
+  pathology: "One-sided risk aversion: system penalizes Type-II more than Type-I, so overtreatment is rational.",
+  human: "Clinicians track and learn from both false positives and false negatives.",
+  organizational: "Hospitals include overdiagnosis, adverse events, and unnecessary procedures in quality scores and bonuses.",
+  professional: "Boards review patterns of overtreatment as seriously as missed diagnoses.",
+  machine: "Clinical AI optimizes for calibrated risk, penalizing overdiagnosis and missed disease symmetrically.",
+  failureModes: {
+    human: "Doctor orders low-value tests to ‘play it safe’ for a healthy patient.",
+    organizational: "Clinic bonuses correlate with procedure volume, not outcomes or harms.",
+    professional: "QA flags only missed cancers, not cascades from false positives.",
+    machine: "Triage model pushes many healthy patients into invasive follow-ups to avoid liability."
+  }
+},
+{
+  category: "AB",
+  name: "Align Care Institutions to Client Outcomes",
+  definition: "Fund and evaluate orphanages/rehab centers on successful placements and client well-being, not headcount or size.",
+  hopedFor: "Children placed in good homes and clients rehabilitated.",
+  rewarded: "Rules and budgets that grow enrollment, staff, and institutional prestige.",
+  pathology: "Goal displacement: means (rules, census, budget) become ends that block the mission.",
+  human: "Caseworkers are recognized for safe, timely placements, not paperwork volume.",
+  organizational: "Budgets and promotions depend on verified outcomes after placement, not number in care.",
+  professional: "Supervisors audit for barriers that needlessly delay adoption or discharge.",
+  machine: "Decision support flags outcome-improving placements rather than maximizing bed occupancy.",
+  failureModes: {
+    human: "Staff resist placing a child to avoid losing a ‘case’ from their roster.",
+    organizational: "Funding increases with census, so leadership tightens admission and adoption rules.",
+    professional: "Managers praise spotless compliance metrics while placements stagnate.",
+    machine: "Placement tool optimizes bed utilization, not child well-being."
+  }
+}
 ];
