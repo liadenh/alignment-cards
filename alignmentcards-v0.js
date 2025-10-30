@@ -8,6 +8,39 @@
     "description": "Alignment principles are contestable, general-purpose, broadly recognized ethical or social or normative commitments that can serve as warrants for recommending or evaluating an agent's course of action in contexts where alignment and cooperation with others matters."
   }
 ];
+{
+  "code": "AB", 
+  "name": "Alignment Breakdowns", 
+  "pathology": "incentive misalignment", 
+  "color": "#FFF3E6",
+  "description": "Alignment Breakdowns (AB) identify how systems, institutions, or agents become misaligned with their ethical goals through distorted incentives, feedback loops, or reward structures that punish integrity or reward vagueness, overreach, or goal displacement."
+}
+];
+
+  {
+    "category": "AT",
+    "name": "honesty",
+    "definition": "loremipsum",
+    "people": "loremipsum",
+    "peopleref": "OPTIONAL URL reference https://scholarworks.umb.edu/cgi/viewcontent.cgi?referer=&httpsredir=1&article=1001&context=philosophy_faculty_pubs",
+    "organizational": "loremipsum",
+    "organizationalref": "OPTIONAL",
+    "professionals": "loremipsum",
+    "professionalref": "OPTIONAL",
+    "machine": "loremipsum",
+    "machineref": "OPTIONAL",
+    "failureModes": {
+      "human": "loremipsum",
+      "organizational": "loremipsum",
+      "experts": "loremipsum",
+      "machine": "loremipsum"
+    },
+       "expand": {
+      "human": "loremipsum",
+      "organizational": "loremipsum",
+      "experts": "loremipsum",
+      "machine": "loremipsum"
+    }
 
 export const cards = [
   {
@@ -154,4 +187,111 @@ export const cards = [
     machine: "Placement tool optimizes bed utilization, not child well-being."
   }
 }
+ {
+    "category": "AT",
+    "name": "accountability",
+    "definition": "Taking responsibility for actions and outcomes—able to explain decisions, accept consequences, and recognize limitations.",
+    "people": "",
+    "peopleref": "",
+    "organizational": "",
+    "organizationalref": "",
+    "professionals": "",
+    "professionalref": "",
+    "machine": "",
+    "machineref": "",
+    "failureModes": {},
+    "expand": {}
+  },
+  {
+    "category": "AT",
+    "name": "trustworthiness",
+    "definition": "Inspiring justified confidence by doing what is right even when unseen—reliable, ethical, and loyal to shared commitments.",
+    "people": "",
+    "peopleref": "",
+    "organizational": "",
+    "organizationalref": "",
+    "professionals": "",
+    "professionalref": "",
+    "machine": "",
+    "machineref": "",
+    "failureModes": {},
+    "expand": {}
+  },
+  {
+    "category": "AT",
+    "name": "reliability / consistency",
+    "definition": "Performing as expected across time and situations—predictable, steady, and dependable in purpose and behavior.",
+    "people": "Can be counted on to finish responsibilities in a timely manner.",
+    "peopleref": "",
+    "organizational": "Consistently delivers on commitments and produces good results.",
+    "organizationalref": "",
+    "professionals": "Demonstrates command of relevant knowledge and executes consistently.",
+    "professionalref": "",
+    "machine": "Does what it is intended to do when it is supposed to do it.",
+    "machineref": "https://chat.openai.com/",
+    "failureModes": {
+      "human": "Doesn’t do the work or is unreachable when needed.",
+      "organizational": "Reneges on promises or repeatedly fails to deliver.",
+      "experts": "Over-relies on AI tools or lacks expected domain competence.",
+      "machine": "Fails to perform its intended function or behaves unpredictably."
+    },
+    "expand": {
+      "human": "Be transparent about status and timelines; communicate clearly and early when risks arise.",
+      "organizational": "Publish targets and shortfalls with corrective plans; add safeguards and runbooks for reliability.",
+      "experts": "Acknowledge mistakes, document assumptions, and act in the client’s best interest.",
+      "machine": "Surface uncertainty, ask clarifying questions when inputs are ambiguous, and provide fallback behaviors."
+    }
+  },
+  {
+    "category": "AT",
+    "name": "shared intentionality",
+    "definition": "Acting with others toward a common goal by aligning motives, expectations, and understanding so cooperation is natural and mutual.",
+    "people": "Openly shares and commits to the same common goal as collaborators.",
+    "peopleref": "",
+    "organizational": "Aligns values and end goals across teams and stakeholders.",
+    "organizationalref": "",
+    "professionals": "Acts in the client’s or public’s best interest while coordinating plans.",
+    "professionalref": "",
+    "machine": "Operates with a clearly defined goal that aligns with the user’s purpose.",
+    "machineref": "",
+    "failureModes": {},
+    "expand": {}
+  },
+  {
+    "category": "AT",
+    "name": "shared transparent reasoning",
+    "definition": "Making the reasoning behind actions visible and understandable so others can follow, critique, and coordinate with it.",
+    "people": "",
+    "peopleref": "",
+    "organizational": "",
+    "organizationalref": "",
+    "professionals": "",
+    "professionalref": "",
+    "machine": "",
+    "machineref": "",
+    "failureModes": {},
+    "expand": {}
+  },
+  {
+    "category": "AT",
+    "name": "role fidelity",
+    "definition": "Staying faithful to the ethical duties and boundaries of one’s position—knowing one’s role, its limits, and responsibilities.",
+    "people": "",
+    "peopleref": "",
+    "organizational": "",
+    "organizationalref": "",
+    "professionals": "",
+    "professionalref": "",
+    "machine": "",
+    "machineref": "",
+    "failureModes": {},
+    "expand": {}
+  },
+  { "category": "AT", "name": "empathy", "definition": "", "people": "", "peopleref": "", "organizational": "", "organizationalref": "", "professionals": "", "professionalref": "", "machine": "", "machineref": "", "failureModes": {}, "expand": {} },
+  { "category": "AT", "name": "considerateness", "definition": "", "people": "", "peopleref": "", "organizational": "", "organizationalref": "", "professionals": "", "professionalref": "", "machine": "", "machineref": "", "failureModes": {}, "expand": {} },
+  { "category": "AT", "name": "reciprocity", "definition": "", "people": "", "peopleref": "", "organizational": "", "organizationalref": "", "professionals": "", "professionalref": "", "machine": "", "machineref": "", "failureModes": {}, "expand": {} },
+  { "category": "AT", "name": "conflict resolution", "definition": "", "people": "", "peopleref": "", "organizational": "", "organizationalref": "", "professionals": "", "professionalref": "", "machine": "", "machineref": "", "failureModes": {}, "expand": {} },
+  { "category": "AT", "name": "epistemic humility", "definition": "", "people": "", "peopleref": "", "organizational": "", "organizationalref": "", "professionals": "", "professionalref": "", "machine": "", "machineref": "", "failureModes": {}, "expand": {} },
+  { "category": "AT", "name": "honesty / veracity", "definition": "", "people": "", "peopleref": "", "organizational": "", "organizationalref": "", "professionals": "", "professionalref": "", "machine": "", "machineref": "", "failureModes": {}, "expand": {} }
+
 ];
