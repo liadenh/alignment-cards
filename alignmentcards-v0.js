@@ -171,17 +171,112 @@ export const cards = [
     }
   },
 
-  // ===== AT TRAITS (placeholders allowed) =====
-  { "category": "AT", "name": "accountability", "definition": "", "people": "", "peopleref": "", "organizational": "", "organizationalref": "", "professionals": "", "professionalref": "", "machine": "", "machineref": "", "failureModes": {}, "expand": {} },
-  { "category": "AT", "name": "trustworthiness", "definition": "", "people": "", "peopleref": "", "organizational": "", "organizationalref": "", "professionals": "", "professionalref": "", "machine": "", "machineref": "", "failureModes": {}, "expand": {} },
-  { "category": "AT", "name": "reliability / consistency", "definition": "", "people": "", "peopleref": "", "organizational": "", "organizationalref": "", "professionals": "", "professionalref": "", "machine": "", "machineref": "", "failureModes": {}, "expand": {} },
-  { "category": "AT", "name": "shared intentionality", "definition": "", "people": "", "peopleref": "", "organizational": "", "organizationalref": "", "professionals": "", "professionalref": "", "machine": "", "machineref": "", "failureModes": {}, "expand": {} },
-  { "category": "AT", "name": "shared transparent reasoning", "definition": "", "people": "", "peopleref": "", "organizational": "", "organizationalref": "", "professionals": "", "professionalref": "", "machine": "", "machineref": "", "failureModes": {}, "expand": {} },
-  { "category": "AT", "name": "role fidelity", "definition": "", "people": "", "peopleref": "", "organizational": "", "organizationalref": "", "professionals": "", "professionalref": "", "machine": "", "machineref": "", "failureModes": {}, "expand": {} },
-  { "category": "AT", "name": "empathy", "definition": "", "people": "", "peopleref": "", "organizational": "", "organizationalref": "", "professionals": "", "professionalref": "", "machine": "", "machineref": "", "failureModes": {}, "expand": {} },
-  { "category": "AT", "name": "considerateness", "definition": "", "people": "", "peopleref": "", "organizational": "", "organizationalref": "", "professionals": "", "professionalref": "", "machine": "", "machineref": "", "failureModes": {}, "expand": {} },
-  { "category": "AT", "name": "reciprocity", "definition": "", "people": "", "peopleref": "", "organizational": "", "organizationalref": "", "professionals": "", "professionalref": "", "machine": "", "machineref": "", "failureModes": {}, "expand": {} },
-  { "category": "AT", "name": "conflict resolution", "definition": "", "people": "", "peopleref": "", "organizational": "", "organizationalref": "", "professionals": "", "professionalref": "", "machine": "", "machineref": "", "failureModes": {}, "expand": {} },
-  { "category": "AT", "name": "epistemic humility", "definition": "", "people": "", "peopleref": "", "organizational": "", "organizationalref": "", "professionals": "", "professionalref": "", "machine": "", "machineref": "", "failureModes": {}, "expand": {} },
-  { "category": "AT", "name": "honesty / veracity", "definition": "", "people": "", "peopleref": "", "organizational": "", "organizationalref": "", "professionals": "", "professionalref": "", "machine": "", "machineref": "", "failureModes": {}, "expand": {} }
+ {
+  "category": "AT",
+  "name": "accountability",
+  "definition": "Taking responsibility for actions and outcomes—able to explain decisions, accept consequences, and recognize limitations.",
+  "people": "",
+  "peopleref": "",
+  "organizational": "",
+  "organizationalref": "",
+  "professionals": "",
+  "professionalref": "",
+  "machine": "",
+  "machineref": "",
+  "failureModes": {},
+  "expand": {}
+},
+{
+  "category": "AT",
+  "name": "trustworthiness",
+  "definition": "Inspiring justified confidence by doing what is right even when unseen—reliable, ethical, and loyal to shared commitments.",
+  "people": "",
+  "peopleref": "",
+  "organizational": "",
+  "organizationalref": "",
+  "professionals": "",
+  "professionalref": "",
+  "machine": "",
+  "machineref": "",
+  "failureModes": {},
+  "expand": {}
+},
+{
+  "category": "AT",
+  "name": "reliability / consistency",
+  "definition": "Performing as expected across time and situations—predictable, steady, and dependable in purpose and behavior.",
+  "people": "Can be counted on to finish responsibilities in a timely manner.",
+  "peopleref": "",
+  "organizational": "Consistently delivers good results and honors commitments.",
+  "organizationalref": "",
+  "professionals": "Well-versed in their knowledge and executes consistently.",
+  "professionalref": "",
+  "machine": "Does what it is intended to do when it is supposed to do it.",
+  "machineref": "",
+  "failureModes": {
+    "human": "Doesn't do the work or is unreachable when needed.",
+    "organizational": "Reneges on promises or repeatedly fails to deliver.",
+    "experts": "Relies on ChatGPT too much or doesn't know what they're supposed to know.",
+    "machine": "Doesn't perform the intended function or behaves unpredictably."
+  },
+  "expand": {
+    "human": "Be transparent and communicate clearly/early about status and risks.",
+    "organizational": "Show clear efforts and safeguards when targets are missed.",
+    "experts": "Admit mistakes and continue to act in the client's best interest.",
+    "machine": "Admit uncertainty and ask clarifying questions when inputs are confusing."
+  }
+},
+{
+  "category": "AT",
+  "name": "shared intentionality",
+  "definition": "Acting with others toward a common goal by aligning motives, expectations, and understanding so cooperation is natural and mutual.",
+  "people": "Shares the same common goal as collaborators.",
+  "peopleref": "",
+  "organizational": "Shares the same values and end goal across the organization.",
+  "organizationalref": "",
+  "professionals": "Acts in your best interest while coordinating plans.",
+  "professionalref": "",
+  "machine": "Has a clearly defined goal that aligns with the user's purpose.",
+  "machineref": "",
+  "failureModes": {},
+  "expand": {}
+},
+{
+  "category": "AT",
+  "name": "shared transparent reasoning",
+  "definition": "Makes the reasoning behind actions visible and understandable so others can follow, critique, and coordinate with it.",
+  "people": "",
+  "peopleref": "",
+  "organizational": "",
+  "organizationalref": "",
+  "professionals": "",
+  "professionalref": "",
+  "machine": "",
+  "machineref": "",
+  "failureModes": {},
+  "expand": {}
+},
+{
+  "category": "AT",
+  "name": "role fidelity",
+  "definition": "Stays faithful to the ethical duties and boundaries of one’s position—knows its role, limits, and responsibilities.",
+  "people": "",
+  "peopleref": "",
+  "organizational": "",
+  "organizationalref": "",
+  "professionals": "",
+  "professionalref": "",
+  "machine": "",
+  "machineref": "",
+  "failureModes": {},
+  "expand": {}
+},
+
+/* blanks from the grid image */
+{ "category": "AT", "name": "empathy", "definition": "", "people": "", "peopleref": "", "organizational": "", "organizationalref": "", "professionals": "", "professionalref": "", "machine": "", "machineref": "", "failureModes": {}, "expand": {} },
+{ "category": "AT", "name": "considerateness", "definition": "", "people": "", "peopleref": "", "organizational": "", "organizationalref": "", "professionals": "", "professionalref": "", "machine": "", "machineref": "", "failureModes": {}, "expand": {} },
+{ "category": "AT", "name": "reciprocity", "definition": "", "people": "", "peopleref": "", "organizational": "", "organizationalref": "", "professionals": "", "professionalref": "", "machine": "", "machineref": "", "failureModes": {}, "expand": {} },
+{ "category": "AT", "name": "conflict resolution", "definition": "", "people": "", "peopleref": "", "organizational": "", "organizationalref": "", "professionals": "", "professionalref": "", "machine": "", "machineref": "", "failureModes": {}, "expand": {} },
+{ "category": "AT", "name": "epistemic humility", "definition": "", "people": "", "peopleref": "", "organizational": "", "organizationalref": "", "professionals": "", "professionalref": "", "machine": "", "machineref": "", "failureModes": {}, "expand": {} },
+{ "category": "AT", "name": "honesty / veracity", "definition": "", "people": "", "peopleref": "", "organizational": "", "organizationalref": "", "professionals": "", "professionalref": "", "machine": "", "machineref": "", "failureModes": {}, "expand": {} }
 ];
